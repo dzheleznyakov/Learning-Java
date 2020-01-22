@@ -1,15 +1,17 @@
 package zh.learn.java.ch23sorting.listings;
 
+import zh.learn.java.ch23sorting.exercises.Heap;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class Heap<E extends Comparable<E>> {
+public class HeapWithComparable<E extends Comparable<E>> extends Heap<E> {
     private List<E> list = new ArrayList<>();
 
-    public Heap() {
+    public HeapWithComparable() {
     }
 
-    public Heap(E[] objects) {
+    public HeapWithComparable(E[] objects) {
         for (int i = 0; i < objects.length; ++i)
             add(objects[i]);
     }

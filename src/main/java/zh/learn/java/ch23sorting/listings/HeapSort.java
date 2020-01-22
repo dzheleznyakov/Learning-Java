@@ -1,11 +1,10 @@
 package zh.learn.java.ch23sorting.listings;
 
-import java.util.Arrays;
-import java.util.List;
+import zh.learn.java.ch23sorting.exercises.Heap;
 
 public class HeapSort {
     public static <E extends Comparable<E>> void sort(E[] list) {
-        Heap<E> heap = new Heap<>();
+        Heap<E> heap = new HeapWithComparable<>();
 
         for (int i = 0; i < list.length; ++i)
             heap.add(list[i]);
