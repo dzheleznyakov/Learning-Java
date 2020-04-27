@@ -16,6 +16,7 @@ public class HeapWithComparable<E extends Comparable<E>> extends Heap<E> {
             add(objects[i]);
     }
 
+    @Override
     public void add(E newObject) {
         list.add(newObject);
         int currentIndex = list.size() - 1;
@@ -33,6 +34,7 @@ public class HeapWithComparable<E extends Comparable<E>> extends Heap<E> {
         }
     }
 
+    @Override
     public E remove() {
         if (list.size() == 0) return null;
 
@@ -65,6 +67,12 @@ public class HeapWithComparable<E extends Comparable<E>> extends Heap<E> {
         return removedObject;
     }
 
+    @Override
+    public List<E> getItems() {
+        return list;
+    }
+
+    @Override
     public int getSize() {
         return list.size();
     }

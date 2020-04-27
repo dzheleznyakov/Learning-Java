@@ -71,6 +71,11 @@ public class HeapWithComparator<E> extends Heap<E> {
     }
 
     @Override
+    public List<E> getItems() {
+        return list;
+    }
+
+    @Override
     public int getSize() {
         return list.size();
     }
