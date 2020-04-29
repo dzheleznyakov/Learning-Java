@@ -16,7 +16,7 @@ public class MergeSort {
         }
     }
 
-    private static void merge(int[] list1, int[] list2, int[] temp) {
+    public static void merge(int[] list1, int[] list2, int[] temp) {
         int current1 = 0;
         int current2 = 0;
         int current3 = 0;
