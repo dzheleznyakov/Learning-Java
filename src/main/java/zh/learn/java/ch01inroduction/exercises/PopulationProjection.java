@@ -1,4 +1,5 @@
-// section 01 exercise 11
+// chapter 01 exercise 1.11
+
 package zh.learn.java.ch01inroduction.exercises;
 
 public class PopulationProjection {

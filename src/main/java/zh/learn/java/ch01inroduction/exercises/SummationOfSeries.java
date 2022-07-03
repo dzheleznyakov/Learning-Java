@@ -1,3 +1,5 @@
+// chapter 01 exercise 1.6
+
 package zh.learn.java.ch01inroduction.exercises;
 
 public class SummationOfSeries {

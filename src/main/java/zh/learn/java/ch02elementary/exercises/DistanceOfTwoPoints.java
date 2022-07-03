@@ -1,4 +1,5 @@
-// section 02 exercise 15
+// chapter 02 exercise 2.15
+
 package zh.learn.java.ch02elementary.exercises;
 
 import java.util.Scanner;

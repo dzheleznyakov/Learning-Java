@@ -1,4 +1,4 @@
-// section 02 exercise 18
+// chapter 02 exercise 2.18
 
 package zh.learn.java.ch02elementary.exercises;
 

@@ -1,4 +1,4 @@
-// section 02 exercise 17
+// chapter 02 exercise 2.17
 
  package zh.learn.java.ch02elementary.exercises;
 
