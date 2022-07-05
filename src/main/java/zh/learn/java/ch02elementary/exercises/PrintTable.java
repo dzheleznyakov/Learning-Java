@@ -2,7 +2,7 @@
 
 package zh.learn.java.ch02elementary.exercises;
 
-public class PrintATable {
+public class PrintTable {
     public static void main(String[] args) {
         System.out.println("   a          b      Middle Point");
 
